@@ -11,7 +11,7 @@ let nota2 = parseFloat(prompt("Digite a segunda nota: "))
 let nota3 = parseFloat(prompt("Digite a terceira nota: "))
 
 try {
-    if(isNaN(nota1) || isNaN(nota2 || isNaN(nota3))){
+    if(isNaN(nota1) || isNaN(nota2) || isNaN(nota3)){
         throw new Error("Valor inválido. Por favor, digite apenas números.")
     } else if((nota1 < 0) || (nota2 < 0) || (nota3 < 0)){
         throw new Error("Valor inválido. Digite apenas números positivos.")
